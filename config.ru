@@ -1,5 +1,5 @@
 require_relative 'middleware/current_time'
 require_relative 'app'
 
-use CurrentTime
-run App.new
+run CurrentTime.new
+# run App.new
